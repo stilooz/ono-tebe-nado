@@ -8,15 +8,13 @@
     <link href="./fonts/fonts.css" rel="stylesheet" />
     <link href="./styles/global.css" rel="stylesheet" />
     <link href="./styles/style.css" rel="stylesheet" />
-
   </head>
-
   <body>
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullit">
-            <a> главная </a>
+            <a class="no__underline" href="#!"> главная </a>
           </li>
           <li>
             <a href="#lots__id"> посмотреть лоты </a>
@@ -36,17 +34,11 @@
       </address>
     </header>
     <div class="cover">
-      <h1 class="cover__title" rel="заголовок оно вам надо">
-        <span class="aligned-text"
-          ><span>о</span
-          ><span class="letter-spacing-extended">но</span></span
-        ><br />
-        <span class="aligned-text_center"
-          >те<span class="letter-spacing-extended">бе</span></span
-        ><br />
-        <span class="aligned-text_right"
-          >н<span class="no-letter-spacing">адо</span></span
-        >
+      <div class="overlay"></div>
+      <h1 class="cover__title">
+        <span class="aligned-text">о<span class="letter-spacing-extended">но</span></span>
+        <span class="aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+        <span class="aligned-text_right">н<span class="no-letter-spacing">адо</span></span>
       </h1>
       <div class="cover__description">
         <p class="cover__description-text">
@@ -56,11 +48,12 @@
       </div>
     </div>
     <section class="lots">
-      <h2 class="lots__heading">Лоты</h2>
+      <h2 class="lots__heading" id="lots__id">Лоты</h2>
       <ul class="lots__card-list">
         <li>
           <a class="card__link" href="#!">
-            <article class="card card card_type_film">
+            <article class="card card_type_film">
+              <div class="overlay"></div>
               <h3 class="title__text">
                 Фильм режиссёра, который бросил киношколу
               </h3>
@@ -71,9 +64,10 @@
             </article>
           </a>
         </li>
-        <li>
-          <a class="card__link" href="#!">
+        <li>          
+          <a class="card__link" href="#!">            
             <article class="card card_type_book">
+              <div class="overlay"></div>
               <h3 class="title__text">
                 Книга, где описан один скучный день из жизни рекламного агента
               </h3>
@@ -85,12 +79,13 @@
                 поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
                 Джойса?
               </p>
-            </article>
+            </article>          
           </a>
         </li>
         <li>
           <a class="card__link" href="#!">
             <article class="card card_type_picture">
+              <div class="overlay"></div>
               <h3 class="title__text">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </h3>
@@ -114,7 +109,7 @@
           alt="логотип оно тебе надо белый"
         />
       </div>
-      <h3 class="about__title">Об аукционе</h3>
+      <h2 class="about__title">Об аукционе</h2>
       <p class="text about__text">
         Здесь вы не встретите очередное пафосное собрание невероятно дорогого
         антиквариата. Наши лоты вообще не должны были попасть ни на один
