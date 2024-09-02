@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-}
+} /*плвное перемещение*/
 
 .header {
   display: grid;
@@ -153,7 +153,7 @@ position: relative;
   font-size: 40px;
   margin-left: 40px;
   margin-bottom: 26px;
-  text-transform: uppercase;
+  text-transform: uppercase;  
 }
 
 .lots__card-list {
