@@ -68,11 +68,12 @@ html {
 }
 
 .cover__title {
+  position: relative;
   font-size: 100px;
   text-transform: uppercase;
   color: white;
   z-index: 2;
-  padding-top: 160px;
+  padding-top: 164px;
   padding-left: 50px;
   padding-right: 50px;
   letter-spacing: 30px;
@@ -80,13 +81,12 @@ html {
 
 .aligned-text {
   display: block;
-
 }
 
 .aligned-text_center {
   display: block;
   text-align: center;
-  line-height: 1.44;
+  line-height: 1.37;
 }
 
 .aligned-text_right {
